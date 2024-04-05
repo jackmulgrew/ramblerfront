@@ -1,0 +1,551 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+/* layout */
+:root {
+  --primary: #1aac83;
+  --error: #e7195a;
+}
+body {
+  background: #0b0b17;
+  margin: 0;
+  font-family: "Poppins";
+}
+
+
+.pages{
+  max-width: 1400px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+/* homepage */
+.home {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 100px;
+}
+
+.journeys h1 {
+  color:#1aac83;
+}
+
+
+/* new Journey form */
+
+h3 {
+  color: #1aac83;
+}
+
+label, input {
+  display: block;
+  color: rgb(0, 0, 0);
+}
+input {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+form button {
+  background: var(--primary);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+}
+form.create label {
+  color: rgb(0, 0, 0);
+  
+}
+
+form.create {
+  
+  max-width: 800px;
+  min-width: 250px;
+  margin-top: 40px;
+  margin: auto;
+
+}
+
+
+form.create button {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+form.create h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.journeys h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.start-point {
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.transport-point {
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.end-point {
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+div.error {
+  padding: 10px;
+  background: #ffefef;
+  border: 1px solid var(--error);
+  color: var(--error);
+  border-radius: 4px;
+  margin: 20px 0;
+}
+input.error {
+  border: 1px solid var(--error);
+}
+/* navbar */
+
+
+.navbar {
+  padding: 10px 20px;
+  
+}
+
+.navbar span {
+  color: white;
+  
+  
+}
+
+.navbar h1 {
+  color: white;
+}
+
+nav a {
+  margin-left: 10px;
+}
+
+
+.navbar .one {
+  margin-top: 5px;
+  margin-right: 15px;
+}
+
+
+
+.bg-mycolor {
+  background-image: linear-gradient(to right,#0b0b17,#0b0b17)
+}
+
+nav button {
+  background: #000000;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-family: "Poppins";
+  cursor: pointer;
+  font-size: 1em;
+  margin-left: 10px;
+}
+
+
+.journey-details h5 {
+  text-decoration: underline;
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+/* auth forms */
+
+
+.login .container {
+  margin-top: 30px;
+  background-color: rgb(255, 255, 255);
+  padding: 80px;
+  border-radius: 5px;
+}
+
+
+.login h1 {
+  
+}
+
+.login p {
+  color: black;
+}
+
+
+
+form.signup, form.login {
+  
+  max-width: 600px;
+  margin: 40px auto;
+  
+  border-radius: 4px;
+  color: rgb(0, 0, 0);
+}
+
+form.login, form.signup p {
+  margin-top: 20px;
+}
+
+form.login, form.signup h2 {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #1aac83;
+}
+
+form.login, form.signup label {
+  color: black;
+  font-family: poppins;
+}
+
+.landing-title {
+  margin-top: 40px;
+  color: #1aac83;
+}
+
+form.login, form.signup link {
+  color: #0b0b17;
+}
+
+.landing-desc {
+  margin-top: 20px;
+}
+
+.landing-text {
+  color: white;
+  margin-top: 20px;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+/*this edits the listing of journeys */
+.journey-details {
+  background-color:  #e8e6f1;
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 20px;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+  max-width: 800px;
+  min-width: 250px;
+}
+
+.journey-details button {
+ background-color: var(--primary);
+ color: white;
+ border: 0px;
+ border-radius: 4px;
+ padding: 8px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+.journey-details h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.6em;
+  color: var(--primary);
+}
+
+.journey-details h2 {
+  margin-bottom: 40px;
+  margin-top: 25px;
+  margin-left: 20px;
+  color: var(--primary);
+}
+
+.journey-details h4 {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  color: var(--primary);
+}
+
+.journey-details p {
+  font-size: 1em;
+  color: #555;
+  margin-bottom:  25px;
+}
+.journey-details span {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  background: #d91010;
+  padding: 6px;
+  border-radius: 50%;
+  color: #ffffff;
+}
+
+.start {
+  padding: 10px 30px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+
+}
+
+.transport {
+  padding: 10px 30px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-top: 20px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+
+}
+
+.destination {
+  padding: 10px 30px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+
+}
+
+
+.journeys h1 {
+  margin-top: 40px;
+}
+
+.menu h1 {
+  max-width: 800px;
+  min-width: 100px;
+color: white;
+padding: 80px 30px;
+background-color: black;
+border-radius: 5px;
+margin: auto;
+text-align: center;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 25px;
+}
+
+.menu-page h2{
+  color: rgb(255, 255, 255);
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding: 20px 20px;
+  background-image: linear-gradient(
+    to bottom right,
+    #000000, #131111
+  );
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+
+  border-radius: 5px;
+}
+
+
+.menu .one {
+  background-image: linear-gradient(
+    to bottom right,
+    #FF6868, #FF68DE
+  );
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+
+
+}
+.menu .two {
+  background-image: linear-gradient(
+    to bottom right,
+    #FDC639, #FF7C60
+  );
+}
+.menu .three {
+  background-image: linear-gradient(
+    to bottom right,
+    #45C270, #21CDC3
+  );
+}
+.menu .four {
+  background-image: linear-gradient(
+    to bottom right,
+    #6889FF, #C668FF
+  );
+}
+
+.files {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 25px;
+}
+
+.settings {
+  text-align: center;
+  color: white;
+}
+
+.settings h1 {
+  margin-top: 200px;
+}
+
+.input {
+  max-width: 190px;
+  background-color: #f5f5f5;
+  color: #242424;
+  padding: .15rem .5rem;
+  min-height: 40px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  line-height: 1.15;
+  box-shadow: 0px 10px 20px -18px;
+}
+
+input:focus {
+  border-bottom: 2px solid #5b5fc7;
+  border-radius: 4px 4px 2px 2px;
+}
+
+input:hover {
+  outline: 1px solid lightgrey;
+}
+
+footer  {
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.about {
+ 
+  color: white;
+  
+  
+}
+
+.about img {
+  
+  max-width: 500px;
+  max-height: 300px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+}
+
+.about h1 {
+ margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.about .container {
+margin-top: 50px;
+background-color: black;
+padding: 25px;
+border-radius: 5px;
+max-width: 1000px;
+}
+
+.about p {
+  margin-top: 5px;
+
+}
+
+/*this edits the listing of journeys */
+.file-details {
+  background-color:  #e8e6f1;
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 20px;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+  max-width: 800px;
+  min-width: 250px;
+}
+
+.file-details button {
+ background-color: var(--primary);
+ color: white;
+ border: 0px;
+ border-radius: 4px;
+ padding: 8px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+.file-details h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.6em;
+  color: var(--primary);
+}
+
+.file-details h2 {
+  margin-bottom: 40px;
+  margin-top: 25px;
+  margin-left: 20px;
+  color: var(--primary);
+}
+
+.file-details h4 {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  color: var(--primary);
+}
+
+.file-details p {
+  font-size: 1em;
+  color: #555;
+  margin-bottom:  25px;
+}
+.file-details span {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  background: #d91010;
+  padding: 6px;
+  border-radius: 50%;
+  color: #ffffff;
+}
+
+.fileone {
+  padding: 10px 30px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-top: 20px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+
+}
+
+.filetwo {
+  padding: 10px 30px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-top: 20px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+
+}
+
+.filethree {
+  padding: 10px 30px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+
+}
